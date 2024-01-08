@@ -1,8 +1,15 @@
+*{
+    margin: 0;
+    padding:0;
+}
 body{
    font-family: 'Inter', sans-serif; 
-   max-width: 1320px;
-   margin: auto;
+   
   
+}
+.main{
+    max-width: 1320px;
+    margin: auto;
 }
 
 .banner {
@@ -297,4 +304,29 @@ input{
     border-bottom-right-radius: 20px;
     margin-left: -4px;
 
+}
+footer{
+    background-color: #070211;
+    color: white;
+    padding: 120px 140px;
+}
+.footer_one{
+
+    display: flex;
+    justify-content: space-between;
+}
+.footer_sort{
+    display: flex;
+    gap: 10px;
+}
+.footer_two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    gap: 24px;
+}
+.footer_three{
+    display: flex;
+    justify-content: space-between;
 }
