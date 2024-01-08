@@ -2,6 +2,7 @@ body{
    font-family: 'Inter', sans-serif; 
    max-width: 1320px;
    margin: auto;
+  
 }
 
 .banner {
@@ -127,4 +128,124 @@ body{
     font-weight: 700;
     border-radius: 10px;
     margin-top: 64px;
+}
+/* coming soon */
+.coming_soon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+    
+   
+}
+.coming_soon_item{
+    flex: 1;
+    padding-right: 40px;
+}
+.group{
+    border: 15px solid #FF0000;
+    border-radius: 50%;
+}
+.group_img{
+    padding: 40px;
+}
+.new_offer{
+    color: red;
+    font-size: 24px;
+    margin-bottom:16px;
+
+}
+.coming_title{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+.coming_2024{
+    color: red;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.coming_p{
+    font-size: 20px;
+    font-weight: 400px;
+    margin-bottom: 43px;
+}
+/* holiday */
+.holiday{
+    max-width: 1068px;
+    margin: auto;
+    margin-bottom: 120px;
+}
+.holiday >h3{
+ font-size:24px ;
+ 
+ text-align: center;
+ margin-bottom: 10px;
+}
+.holiday >h1{
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom:28px ;
+}
+
+.girls {
+    display: flex;
+    z-index: 1; /* Set z-index for .girls */
+    position: relative;
+    
+    max-width: 1320px;
+}
+
+.discount_img {
+    position: relative;
+}
+
+.redcolor {  
+    position: absolute;
+    bottom: 0px;
+    z-index: 0; /* Set z-index for .redcolor */
+}
+.girl{
+    position: relative;
+    
+}
+.girl_one{
+    position: absolute;
+    left: 95px;
+}
+.girl_two{
+    position: absolute;
+    top: 70px;
+    left: -60px;
+}
+/* best gift */
+.best-gift{
+    margin: 120px 0;
+}
+.best >h3{
+    font-size: 24px;
+    font-weight: 400;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+.best>h2{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+    
+}
+.best>p{
+    width: 800px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.img_group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 48px;
+    margin-bottom: 120px;
 }
