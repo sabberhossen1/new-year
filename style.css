@@ -1,0 +1,31 @@
+body{
+   font-family: 'Inter', sans-serif; 
+   max-width:1320px ;
+   margin:0 auto;
+}
+
+.banner {
+    
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/img/Banner Image.png');
+    
+    /* Other styles */
+    max-width: 1320px;
+    height: 600px;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+
+.banner-div{
+    padding: 120px 344px;
+}
+.banner-div >h3{
+    font-size: 32px;
+    font-weight: 400px;
+    font-style: normal;
+}
+.banner-div >h1{
+    font-size: 72px;
+    font-weight: 900px;
+}
