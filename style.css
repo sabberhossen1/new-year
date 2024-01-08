@@ -1,19 +1,19 @@
 body{
    font-family: 'Inter', sans-serif; 
-   max-width:1320px ;
-   margin:0 auto;
+ 
 }
 
 .banner {
     
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/img/Banner Image.png');
     
-    /* Other styles */
     max-width: 1320px;
     height: 600px;
     margin: auto;
     color: white;
     text-align: center;
+    margin-bottom:120px ;
+    border-radius: 10px;
 }
 
 
@@ -24,8 +24,79 @@ body{
     font-size: 32px;
     font-weight: 400px;
     font-style: normal;
+    margin-bottom: 16px;
 }
 .banner-div >h1{
     font-size: 72px;
     font-weight: 900px;
+}
+
+/* offer section */
+.offer-section{
+  max-width: 800px;
+  
+  margin:0 auto;
+  text-align: center;
+  margin-bottom: 120px;
+}
+.offer-section div >h2{
+    font-size: 88px;
+    font-weight: 700;
+    color: red;
+    margin-bottom: 48px;
+}
+
+.offer-section div >p{
+    font-size: 24px;
+    color: red;
+    margin-bottom: 16px;
+}
+.offer-section div >h3{
+    font-size: 48px;
+    margin-bottom:48px ;
+}
+.offer-section div >img{
+    width: 800px;
+    height: 500px;
+}
+/* 2024 */
+.party{
+        
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/img/Vectorrr.png');
+    
+    max-width: 1320px;
+    
+    margin:0 auto;
+    color: white;
+    
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    background-repeat: no-repeat
+    ;
+    
+}
+.party div >h1{
+    font-size: 62px;
+    font-weight: 700;
+    margin-bottom: 24px;
+
+
+}
+.party div >p{
+    font-size: 18px;
+}
+.party div{
+    padding: 70px 120px;
+}
+
+.party div button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 48px;
 }
