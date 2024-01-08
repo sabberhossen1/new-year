@@ -1,6 +1,7 @@
 body{
    font-family: 'Inter', sans-serif; 
- 
+   max-width: 1320px;
+   margin: auto;
 }
 
 .banner {
@@ -76,6 +77,7 @@ body{
  
     background-repeat: no-repeat
     ;
+    margin-bottom: 120px;
     
 }
 .party div >h1{
@@ -99,4 +101,30 @@ body{
     font-size: 20px;
     font-weight: 700;
     margin-top: 48px;
+}
+
+/* date */
+.date{
+    background: linear-gradient(180deg, #eacde8, #fcfbfa);
+    border-radius: 10px;
+    padding: 100px 300px 126px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+.date h2{
+    font-size: 32px;
+    font-weight: 600;
+}
+.date h2 > span{
+    color: red;
+}
+.date button{
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-top: 64px;
 }
